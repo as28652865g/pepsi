@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bg
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #035EBC;
+    transition: .5s ease-in;
+}
+.bg header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.bg header .logo 
+{
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.nav
+{
+    display: flex;
+}
+.nav li
+{
+    list-style-type: none;
+    margin-left: 40px;
+}
+.nav li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.img
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.img .txtBx
+{
+    max-width: 600px;
+    margin-top: 40px;
+}
+.img .txtBx a
+{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 8px 20px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+}
+.img .txtBx h2
+{
+    font-size: 4em;
+    color: #fff;
+}
+.img .txtBx p
+{
+    color: #fff;
+}
+
+.txt-img
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+.link 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txt-img .link li
+{
+    padding-top: 20px;
+    list-style-type: none;
+    display: inline-block;
+    filter: invert(1);
+}
+.img-group
+{
+    display: flex;
+    justify-content: center;
+}
+.img-group li
+{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 40px;
+    transition: .5s;
+}
+.img-group li:hover
+{
+    transform: translateY(-20px);
+}
+.img-group img
+{
+    width: 50px;
+}
+
+@media (max-width: 991px)
+{
+    .bg .header
+    {
+        padding: 20px 40px;
+    }
+    header .nav
+    {
+        display: none;
+    }
+    header .toggle
+    {
+        display: block;
+    }
+    .img
+    {
+        padding: 0 3%;
+        margin-bottom: 10px;
+    }
+    .img .txtBx
+    {
+        padding-right: 25px;
+    }
+    .img .txtBx h2
+    {
+        font-size: 3em;
+    }
+    .link
+    {
+        display: none;
+    }
+
+}
