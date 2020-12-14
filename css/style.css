@@ -38,10 +38,11 @@
 {
     list-style-type: none;
     margin-left: 40px;
+    transition: .5s ease-in;
 }
 .nav li:hover
 {
-    transform: translateY(-20px);
+    transform: translateY(-15px);
 }
 .nav li a
 {
