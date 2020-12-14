@@ -39,6 +39,10 @@
     list-style-type: none;
     margin-left: 40px;
 }
+.nav li:hover
+{
+    transform: translateY(-20px);
+}
 .nav li a
 {
     text-decoration: none;
